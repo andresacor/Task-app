@@ -1,0 +1,53 @@
+:root {
+  --main-color: #03588C;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.title {
+  font-size: 1.125rem;
+  font-family: 'Rubik Mono One', sans-serif;
+  color: var(--main-color);
+}
+
+.title-slogan {
+  font-size: 13px;
+  color: #232226;
+}
+
+.task-title {
+  font-size: 1rem;
+  color: #232226;
+}
+
+.task {
+  font-size: 0.875rem;
+  color: #C1C9D9;
+}
+
+.task-mistake {
+  font-size: 0.875rem;
+}
+
+::placeholder {
+  color: #C1C9D9!important;
+}
+
+.main{
+  background-color: var(--main-color);
+}
+
+.main:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
